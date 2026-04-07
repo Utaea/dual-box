@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     env:
-      TAGS: "with_quic,with_grpc,with_wireguard,with_utls"
+      TAGS: "with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_naive_outbound,badlinkname,tfogo_checklinkname0,with_v2ray_api"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
